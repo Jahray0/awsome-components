@@ -14,4 +14,9 @@ export class CommentsComponent implements OnInit {
   @Input() comments!: Comment[];
 
   ngOnInit(): void { }
+
+  onLeaveComment()  {
+
+    
+   }
 }
