@@ -5,3 +5,8 @@ mat-card {
 .post-content {
   margin-top: 10px;
 }
+
+.mat-mdc-card-content {
+  display: flex;
+  flex-direction: column;
+}
