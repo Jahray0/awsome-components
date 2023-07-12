@@ -14,7 +14,7 @@
       [src]="imageUrl"
       [alt]="post.title"
     />
-    <span class="post-content">{{ post.content | shorten }}</span>
+    <span class="post-content">{{ post.content | shorten : 100 }}</span>
   </mat-card-content>
   <mat-card-actions>
     <app-comments
